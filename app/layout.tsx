@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HarapanKalbar - VideoMag Platform Video Indonesia",
-  description: "Platform streaming video terbaik dengan konten lokal Kalimantan Barat dan internasional berkualitas tinggi",
+  title: "Harapan Kalbar — Portal Berita Terintegrasi Kalimantan Barat",
+  description: "Media Informasi Digital Independen, Profesional, dan Eksklusif Kalimantan Barat.",
   icons: {
-    icon: "/harapankalbar.jpeg",
+    icon: "/harapankalbar.png",
   },
 };
 
