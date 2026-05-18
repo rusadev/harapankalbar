@@ -378,6 +378,15 @@ export default function ProVideomag() {
           
           {/* Left Section - Logo */}
           <div className="flex items-center gap-3 flex-shrink-0">
+            {/* Mobile menu (hamburger) - visible on small screens */}
+            <button 
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)} 
+              className="p-2 hover:bg-slate-100 rounded-lg transition-colors md:hidden"
+            >
+              <Menu size={22} className="text-slate-700" />
+            </button>
+
+            {/* Desktop menu button (kept for larger screens) */}
             <button 
               onClick={() => setIsSidebarOpen(!isSidebarOpen)} 
               className="p-2 hover:bg-slate-100 rounded-lg transition-colors hidden md:flex"
@@ -538,21 +547,29 @@ export default function ProVideomag() {
             )}
 
             {/* Category Filter Pills */}
-            <div className="mb-10 sticky top-16 z-40 bg-gradient-to-b from-white via-white to-transparent pt-2 pb-4 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 border-b border-slate-200/60">
-              <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-3">
-                {CATEGORIES.map(cat => (
-                  <button 
-                    key={cat}
-                    onClick={() => setActiveCat(cat)}
-                    title={cat !== "Semua" ? `Konten dari ${cat}` : "Semua konten"}
-                    className={`px-4 sm:px-5 py-2.5 rounded-lg text-sm font-bold whitespace-nowrap transition-all duration-200 border flex-shrink-0
-                      ${activeCat === cat 
-                        ? 'bg-rose-500 text-white border-rose-500' 
-                        : 'bg-white text-slate-700 hover:bg-slate-50 border-slate-200/60 hover:border-slate-300'}`}
-                  >
-                    {cat}
-                  </button>
-                ))}
+            <div className="sticky top-16 z-40 bg-white/80 backdrop-blur-md py-4 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 border-b border-slate-100">
+              <div className="relative max-w-7xl mx-auto">
+                {/* Gradient Overlay untuk Scroll Halus (Kiri) */}
+                <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white to-transparent pointer-events-none z-10 sm:hidden" />
+                
+                <div className="flex items-center gap-3 overflow-x-auto no-scrollbar py-0.5">
+                  {CATEGORIES.map(cat => (
+                    <button 
+                      key={cat}
+                      onClick={() => setActiveCat(cat)}
+                      title={cat !== "Semua" ? `Konten dari ${cat}` : "Semua konten"}
+                      className={`px-4 py-2 rounded-full text-sm font-medium tracking-wide whitespace-nowrap transition-all duration-200 flex-shrink-0
+                        ${activeCat === cat 
+                          ? 'bg-rose-500 text-white shadow-sm shadow-rose-500/20' 
+                          : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'}`}
+                    >
+                      {cat}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Gradient Overlay untuk Scroll Halus (Kanan) */}
+                <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none z-10 sm:hidden" />
               </div>
             </div>
 
@@ -589,12 +606,18 @@ export default function ProVideomag() {
 
       {/* --- FULLSCREEN PLAYER --- */}
       {selectedVideo && (
-        <div className="fixed inset-0 bg-black z-[200] flex flex-col lg:flex-row animate-in fade-in duration-300 overflow-hidden">
+        <div 
+          className="fixed inset-0 bg-black z-[200] flex flex-col lg:flex-row animate-in fade-in duration-300 overflow-hidden"
+          onKeyDown={(e) => e.key === 'Escape' && setSelectedVideo(null)}
+          tabIndex={-1}
+        >
+          {/* Close Button */}
           <button 
             onClick={() => setSelectedVideo(null)}
-            className="absolute top-4 right-4 z-[210] p-2 bg-white/15 hover:bg-white/25 text-white rounded-full backdrop-blur-md transition-all transform hover:scale-110"
+            title="Tutup (ESC)"
+            className="absolute top-4 right-4 z-[210] w-12 h-12 bg-white/20 hover:bg-white/40 text-white rounded-full backdrop-blur-md transition-all transform hover:scale-110 duration-200 flex items-center justify-center shadow-lg border border-white/30"
           >
-            <X size={24} />
+            <X size={28} strokeWidth={2.5} />
           </button>
 
           <div className="flex-1 flex items-center justify-center bg-slate-900">
@@ -611,6 +634,17 @@ export default function ProVideomag() {
           </div>
 
           <div className="w-full lg:w-[420px] bg-white h-auto lg:h-screen overflow-y-auto">
+            {/* Close Button Mobile */}
+            <div className="lg:hidden flex items-center justify-between p-4 border-b border-slate-200">
+              <h3 className="font-bold text-slate-900">Detail Video</h3>
+              <button 
+                onClick={() => setSelectedVideo(null)}
+                className="p-2 hover:bg-slate-100 rounded-lg transition-colors"
+              >
+                <X size={24} className="text-slate-600" />
+              </button>
+            </div>
+
             <div className="p-6 space-y-6">
               {/* Title */}
               <div>
