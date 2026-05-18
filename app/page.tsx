@@ -547,31 +547,25 @@ export default function ProVideomag() {
             )}
 
             {/* Category Filter Pills */}
-            <div className="sticky top-16 z-40 bg-white/80 backdrop-blur-md py-4 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 border-b border-slate-100">
-              <div className="relative max-w-7xl mx-auto">
-                {/* Gradient Overlay untuk Scroll Halus (Kiri) */}
-                <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white to-transparent pointer-events-none z-10 sm:hidden" />
-                
-                <div className="flex items-center gap-3 overflow-x-auto no-scrollbar py-0.5">
-                  {CATEGORIES.map(cat => (
-                    <button 
-                      key={cat}
-                      onClick={() => setActiveCat(cat)}
-                      title={cat !== "Semua" ? `Konten dari ${cat}` : "Semua konten"}
-                      className={`px-4 py-2 rounded-full text-sm font-medium tracking-wide whitespace-nowrap transition-all duration-200 flex-shrink-0
-                        ${activeCat === cat 
-                          ? 'bg-rose-500 text-white shadow-sm shadow-rose-500/20' 
-                          : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'}`}
-                    >
-                      {cat}
-                    </button>
-                  ))}
+            <div className="sticky top-16 z-40 bg-white py-3 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                <div className="max-w-7xl mx-auto">
+                  <div className="flex items-center gap-2 overflow-x-auto no-scrollbar">
+                    {CATEGORIES.map(cat => (
+                      <button 
+                        key={cat}
+                        onClick={() => setActiveCat(cat)}
+                        title={cat !== "Semua" ? `Konten dari ${cat}` : "Semua konten"}
+                        className={`px-3 py-1.5 rounded-lg text-sm font-medium tracking-wide whitespace-nowrap transition-colors duration-150 flex-shrink-0
+                          ${activeCat === cat 
+                            ? 'bg-slate-900 text-white' 
+                            : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}
+                      >
+                        {cat}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-
-                {/* Gradient Overlay untuk Scroll Halus (Kanan) */}
-                <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none z-10 sm:hidden" />
               </div>
-            </div>
 
             {/* Video Responsive Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
