@@ -45,16 +45,6 @@ const VIDEOS: Video[] = [
     isLive: true
   },
   { 
-    id: "sos001", 
-    title: "Kisah inspiratif para perempuan muda yang membangun bisnis mereka dari pasar tradisional hingga marketplace online.",
-    channel: "Pontianak Sosial", 
-    category: "Sosial", 
-    views: "8.2K", 
-    time: "18m", 
-    img: "https://asset.kompas.com/crops/tPjWcA9BwHaEuGlaujqem4w-ovE=/53x0:956x602/1200x675/data/photo/2026/03/09/69ae7f1f5df32.jpeg",
-    description: "Kisah inspiratif para perempuan muda yang membangun bisnis mereka dari pasar tradisional hingga marketplace online.",
-  },
-  { 
     id: "pol002", 
     title: "Evaluasi Kinerja DPRD Pontianak: Transparansi dan Akuntabilitas Politik", 
     category: "Politik", 
