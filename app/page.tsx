@@ -55,16 +55,6 @@ const VIDEOS: Video[] = [
     description: "Kisah inspiratif para perempuan muda yang membangun bisnis mereka dari pasar tradisional hingga marketplace online.",
   },
   { 
-    id: "sos002", 
-    title: "Gerakan Lingkungan: Masyarakat Pontianak Tanam 10.000 Pohon", 
-    category: "Sosial", 
-    views: "6.5K", 
-    time: "12m", 
-    img: "https://cdn.antaranews.com/cache/1200x800/2023/12/30/WhatsApp-Image-2023-12-30-at-17.42.18_0cce9222.jpg",
-    description: "Kepedulian lingkungan masyarakat Pontianak dalam aksi penanaman pohon skala besar untuk masa depan yang lebih hijau.",
-    channel: "Borneo Hijau"
-  },
-  { 
     id: "pol002", 
     title: "Evaluasi Kinerja DPRD Pontianak: Transparansi dan Akuntabilitas Politik", 
     category: "Politik", 
@@ -84,7 +74,6 @@ const VIDEOS: Video[] = [
     description: "Sekolah komunitas amal memberikan kesempatan pendidikan kepada anak-anak yang tidak mampu di Pontianak.",
     channel: "Pendidikan Kalbar"
   },
-
   // === KONTEN SINGKAWANG ===
   { 
     id: "y6vI9SjE8g8", 
@@ -117,7 +106,6 @@ const VIDEOS: Video[] = [
     description: "Perayaan Imlek yang meriah menunjukkan toleransi dan keharmonisan masyarakat Singkawang dari berbagai agama.",
     channel: "Budaya Singkawang"
   },
-
   // === KONTEN MEMPAWAH ===
   { 
     id: "pol004", 
@@ -149,7 +137,6 @@ const VIDEOS: Video[] = [
     description: "Inisiatif kesehatan menjangkau daerah terpencil, memberikan akses layanan medis kepada masyarakat desa.",
     channel: "Kesehatan Kalbar"
   },
-
   // === KONTEN SAMBAS ===
   { 
     id: "pol005", 
@@ -171,7 +158,6 @@ const VIDEOS: Video[] = [
     description: "Generasi muda Sambas belajar dan mengajarkan seni tradisional untuk menjaga kelestarian budaya lokal.",
     channel: "Seni Sambas"
   },
-
   // === KONTEN SANGGAU ===
   { 
     id: "pol006", 
@@ -193,7 +179,6 @@ const VIDEOS: Video[] = [
     description: "Petani muda Sanggau mengubah pertanian konvensional menjadi pertanian organik untuk produk berkualitas tinggi.",
     channel: "Pertanian Sanggau"
   },
-
   // === KONTEN KAPUAS HULU ===
   { 
     id: "pol007", 
@@ -216,7 +201,6 @@ const VIDEOS: Video[] = [
     description: "Komunitas Dayak Kapuas Hulu menjaga tradisi leluhur sambil merangkul modernisasi dan pendidikan.",
     channel: "Dayak Budaya"
   },
-
   // === KONTEN KETAPANG ===
   { 
     id: "pol008", 
@@ -239,7 +223,6 @@ const VIDEOS: Video[] = [
     description: "Petani tradisional Ketapang berusaha beradaptasi dengan perubahan lanskap pertanian dan ekonomi lokal.",
     channel: "Ekonomi Ketapang"
   },
-
   // === KONTEN TAMBAHAN NASIONAL ===
   { 
     id: "j-5AIsmU_a4", 
@@ -270,73 +253,11 @@ const VIDEOS: Video[] = [
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200",
     description: "Eksplorasi bagaimana artificial intelligence sedang merevolusi cara kita berkarya.",
     channel: "Tech Insider"
-  },
-  { 
-    id: "xyz789uv", 
-    title: "Festival Budaya Nusantara: Warisan Seni Tradisional yang Hidup", 
-    category: "Hiburan", 
-    views: "9.3K", 
-    time: "22m", 
-    img: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1200",
-    description: "Perayaan meriah menampilkan keindahan budaya lokal dari berbagai daerah.",
-    channel: "Budaya Nusantara",
-    isLive: true
-  },
-  { 
-    id: "qwe456rty", 
-    title: "Strategi Bisnis E-Commerce 2026: Meningkatkan Penjualan hingga 300%", 
-    category: "Ekonomi", 
-    views: "15.6K", 
-    time: "18m", 
-    img: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200",
-    description: "Tips dan trik dari para expert untuk mengembangkan bisnis online Anda.",
-    channel: "Bisnis Pro"
-  },
-  { 
-    id: "asdfgh789", 
-    title: "Pariwisata Berkelanjutan: Menjaga Alam Sambil Berwisata", 
-    category: "Pariwisata", 
-    views: "7.1K", 
-    time: "20m", 
-    img: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1200",
-    description: "Panduan wisata ramah lingkungan untuk menjaga kelestarian alam.",
-    channel: "Green Travel"
-  },
-  { 
-    id: "zxcvbn012", 
-    title: "Infrastruktur Jalan Tol Trans-Kalimantan: Menghubungkan Pulau Besar", 
-    category: "Infrastruktur", 
-    views: "11.2K", 
-    time: "25m", 
-    img: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1200",
-    description: "Proyek besar yang akan mengubah konektivitas Kalimantan selamanya.",
-    channel: "Borneo Update"
-  },
-  { 
-    id: "mnbvcx345", 
-    title: "Musik Elektronik Indonesia Meledak di Pasar Global", 
-    category: "Hiburan", 
-    views: "18.9K", 
-    time: "17m", 
-    img: "https://images.unsplash.com/photo-1511379938547-c1f69b13d835?q=80&w=1200",
-    description: "Bagaimana musisi lokal berhasil mendominasi chart internasional.",
-    channel: "Music Revolution"
-  },
-  { 
-    id: "poiuyt678", 
-    title: "5G Network Expansion: Teknologi Internet Masa Depan di Indonesia", 
-    category: "Teknologi", 
-    views: "13.4K", 
-    time: "19m", 
-    img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200",
-    description: "Revolusi teknologi 5G mengubah cara kita terhubung dan berkomunikasi.",
-    channel: "Tech Insider"
-  },
+  }
 ];
 
 const CATEGORIES = ["Semua", "Pontianak", "Singkawang", "Mempawah", "Sambas", "Sanggau", "Kapuas Hulu", "Ketapang"];
 
-// Kalbar Cities mapping
 const KALBAR_CITIES: Record<string, string> = {
   "Pontianak": "Infrastruktur,Ekonomi,Politik,Sosial",
   "Singkawang": "Pariwisata,Budaya,Politik,Sosial",
@@ -370,26 +291,18 @@ export default function ProVideomag() {
   }, [search, activeCat]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-slate-50 to-rose-50 text-slate-900 font-sans">
+    <div className="min-h-screen bg-white text-slate-900 font-sans antialiased">
       
       {/* --- MODERN HEADER --- */}
-      <nav className="fixed top-0 w-full h-16 bg-white/95 backdrop-blur-xl border-b border-slate-200/60 z-[100]">
+      <nav className="fixed top-0 w-full h-16 bg-white border-b border-slate-100 z-[100]">
         <div className="h-full max-w-[1920px] mx-auto flex items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
           
-          {/* Left Section - Logo */}
+          {/* Left Section - Logo & Hamburger */}
           <div className="flex items-center gap-3 flex-shrink-0">
-            {/* Mobile menu (hamburger) - visible on small screens */}
             <button 
               onClick={() => setIsSidebarOpen(!isSidebarOpen)} 
-              className="p-2 hover:bg-slate-100 rounded-lg transition-colors md:hidden"
-            >
-              <Menu size={22} className="text-slate-700" />
-            </button>
-
-            {/* Desktop menu button (kept for larger screens) */}
-            <button 
-              onClick={() => setIsSidebarOpen(!isSidebarOpen)} 
-              className="p-2 hover:bg-slate-100 rounded-lg transition-colors hidden md:flex"
+              className="p-2 hover:bg-slate-100 rounded-full transition-colors"
+              aria-label="Toggle Menu"
             >
               <Menu size={22} className="text-slate-700" />
             </button>
@@ -397,20 +310,20 @@ export default function ProVideomag() {
             <img 
               src="/harapankalbar.jpeg" 
               alt="HarapanKalbar Logo"
-              className="h-16 sm:h-20 w-auto rounded-lg object-contain"
+              className="h-14 w-auto rounded-lg object-contain"
             />
           </div>
 
           {/* Center Section - Search */}
-          <div className="flex-1 max-w-3xl hidden sm:block mx-3">
+          <div className="flex-1 max-w-2xl hidden sm:block mx-4">
             <div className="relative group">
               <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
-                <Search className="text-slate-400 group-focus-within:text-rose-500 transition-colors" size={20} />
+                <Search className="text-slate-400 group-focus-within:text-slate-900 transition-colors" size={18} />
               </div>
               <input 
                 type="text"
                 placeholder="Cari video, topik, atau kota..."
-                className="w-full bg-white border border-slate-200/60 rounded-xl py-3 pl-12 pr-4 text-sm focus:border-rose-500 focus:ring-2 focus:ring-rose-500/20 transition-all outline-none"
+                className="w-full bg-slate-50 border border-slate-200/80 rounded-full py-2 pl-11 pr-4 text-sm focus:bg-white focus:border-slate-900 transition-all outline-none"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
@@ -418,41 +331,37 @@ export default function ProVideomag() {
           </div>
 
           {/* Right Section - Actions */}
-          <div className="flex items-center gap-2 sm:gap-4">
+          <div className="flex items-center gap-1 sm:gap-3">
             <button 
               onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
-              className="p-2 sm:hidden text-slate-600 hover:bg-slate-100 rounded-lg transition-colors"
+              className="p-2 sm:hidden text-slate-600 hover:bg-slate-100 rounded-full transition-colors"
             >
               <Search size={20} />
             </button>
 
-            <button className="p-2.5 text-slate-600 hover:bg-slate-100 rounded-lg transition-colors relative hidden sm:block">
+            <button className="p-2 text-slate-600 hover:bg-slate-100 rounded-full transition-colors relative hidden sm:block">
               <Bell size={20} />
               <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-rose-500 rounded-full"></span>
             </button>
             
-            <div className="w-px h-6 bg-slate-200/60 hidden lg:block"></div>
-            
-            <button className="flex items-center gap-2 px-3 py-1.5 hover:bg-slate-100 rounded-lg transition-colors">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-rose-100 to-rose-200 flex items-center justify-center border border-rose-200/50">
-                <User size={16} className="text-rose-600" />
-              </div>
-              <span className="text-sm font-semibold text-slate-700 hidden lg:block">Masuk</span>
+            <button className="flex items-center gap-2 px-3 py-1.5 border border-slate-200 hover:bg-slate-50 rounded-full transition-colors">
+              <User size={16} className="text-slate-700" />
+              <span className="text-sm font-medium text-slate-700 hidden lg:block">Masuk</span>
             </button>
           </div>
         </div>
 
         {/* Mobile Search Bar */}
         {mobileSearchOpen && (
-          <div className="sm:hidden px-4 py-4 bg-white border-b border-slate-200/60">
-            <div className="relative group">
+          <div className="sm:hidden px-4 py-3 bg-white border-b border-slate-100">
+            <div className="relative">
               <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <Search className="text-slate-400" size={18} />
               </div>
               <input 
                 type="text"
                 placeholder="Cari video, kota..."
-                className="w-full bg-white border border-slate-200/60 rounded-lg py-2.5 pl-10 pr-3 text-sm focus:border-rose-500 focus:ring-2 focus:ring-rose-500/20 outline-none transition-all"
+                className="w-full bg-slate-50 border border-slate-200 rounded-full py-2 pl-10 pr-3 text-sm focus:bg-white focus:border-slate-900 outline-none transition-all"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 autoFocus
@@ -464,24 +373,32 @@ export default function ProVideomag() {
 
       <div className="flex pt-16">
         
-        {/* --- DESKTOP SIDEBAR --- */}
+        {/* --- RESPONSIVE SIDEBAR (MOBILE DRAWER & DESKTOP COLLAPSIBLE) --- */}
+        {/* Backdrop overlay untuk perangkat mobile */}
+        {isSidebarOpen && (
+          <div 
+            className="fixed inset-0 bg-black/40 z-40 md:hidden"
+            onClick={() => setIsSidebarOpen(false)}
+          />
+        )}
+
         <aside className={`
-          hidden md:flex flex-col sticky top-16 h-[calc(100vh-64px)] transition-all duration-300 border-r border-slate-200/60 bg-white
-          ${isSidebarOpen ? 'w-64' : 'w-20'}
+          fixed md:sticky top-16 h-[calc(100vh-64px)] z-50 md:z-30 bg-white transition-all duration-300 flex flex-col flex-shrink-0
+          ${isSidebarOpen ? 'w-64 translate-x-0' : 'w-0 md:w-20 -translate-x-full md:translate-x-0 overflow-hidden'}
         `}>
-          <div className="space-y-1 p-4 flex-1">
+          <div className="space-y-1 p-3 flex-1">
             <SidebarItem icon={<Home size={20}/>} label="Beranda" active compact={!isSidebarOpen} />
             <SidebarItem icon={<Compass size={20}/>} label="Jelajahi" compact={!isSidebarOpen} />
             <SidebarItem icon={<Video size={20}/>} label="Koleksi" compact={!isSidebarOpen} />
             <SidebarItem icon={<History size={20}/>} label="Riwayat" compact={!isSidebarOpen} />
           </div>
           
-          {isSidebarOpen && (
-            <div className="mt-auto pt-6 p-4 border-t border-slate-200/60">
-              <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-4">Kategori Populer</p>
+          {(isSidebarOpen || true) && (
+            <div className={`mt-auto pt-4 p-3 border-t border-slate-100 transition-opacity duration-200 ${!isSidebarOpen ? 'md:opacity-0' : 'opacity-100'}`}>
+              <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-2 px-3">Kategori Populer</p>
               <div className="space-y-1">
                 <SidebarItem icon={<Flame size={20}/>} label="Trending" />
-                <SidebarItem icon={<Radio size={20}/>} label="Live Sekarang" isLive />
+                <SidebarItem icon={<Radio size={20}/>} label="Live" isLive />
                 <SidebarItem icon={<Bookmark size={20}/>} label="Tersimpan" />
               </div>
             </div>
@@ -489,95 +406,79 @@ export default function ProVideomag() {
         </aside>
 
         {/* --- MAIN CONTENT --- */}
-        <main className="flex-1 min-w-0 pb-24 sm:pb-12 md:pb-8">
-          <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <main className="flex-1 min-w-0 pb-24 sm:pb-12 md:pb-8 transition-all duration-300">
+          <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-6">
           
             {/* Featured Hero Section */}
             {!search && (
               <section 
                 onClick={() => setSelectedVideo(VIDEOS[0])}
-                className="mb-12 relative aspect-[16/9] md:aspect-[20/9] rounded-2xl md:rounded-3xl overflow-hidden group cursor-pointer border border-slate-200/60"
+                className="mb-8 relative aspect-[16/9] md:aspect-[21/9] rounded-xl overflow-hidden group cursor-pointer"
               >
                 <img 
                   src={VIDEOS[0].img} 
                   alt="Featured"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
+                  className="w-full h-full object-cover" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/40 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 
                 <div className="absolute inset-0 flex flex-col justify-end">
-                  <div className="p-6 sm:p-10 md:p-14">
-                    <div className="flex flex-wrap items-center gap-3 mb-4">
+                  <div className="p-6 sm:p-10 md:p-12">
+                    <div className="flex items-center gap-2 mb-3">
                       {VIDEOS[0].isLive && (
-                        <span className="bg-rose-500 text-white text-[10px] font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 uppercase tracking-wider">
-                          <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span> Live
+                        <span className="bg-rose-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-sm flex items-center gap-1 uppercase tracking-wide">
+                          Live
                         </span>
                       )}
-                      <span className="text-white/90 text-xs font-bold backdrop-blur-md bg-white/20 px-3 py-1.5 rounded-full uppercase">
+                      <span className="bg-white/20 text-white text-xs font-medium px-2.5 py-1 rounded-sm backdrop-blur-sm">
                         {VIDEOS[0].category}
                       </span>
                     </div>
                     
-                    <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white mb-4 leading-tight line-clamp-2 md:line-clamp-3 md:max-w-2xl">
+                    <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-3 leading-tight line-clamp-2 max-w-3xl">
                       {VIDEOS[0].title}
                     </h2>
                     
-                    <p className="hidden sm:block text-white/80 text-sm md:text-base mb-6 max-w-xl line-clamp-2">
-                      {VIDEOS[0].description}
-                    </p>
-                    
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                      <button className="flex items-center gap-2 bg-white text-slate-900 px-6 sm:px-8 py-3 rounded-xl font-bold hover:bg-rose-50 hover:text-rose-600 transition-all transform hover:scale-105 border border-slate-200">
-                        <Play fill="currentColor" size={20} /> Tonton Sekarang
-                      </button>
-                      <div className="flex items-center gap-2 text-white/80 text-sm font-semibold">
-                        <Eye size={18}/> {VIDEOS[0].views} Penonton
-                      </div>
+                    <div className="flex items-center gap-3 text-white/90 text-sm font-medium">
+                      <span>{VIDEOS[0].channel}</span>
+                      <span className="w-1 h-1 bg-white/60 rounded-full"></span>
+                      <span>{VIDEOS[0].views} Penonton</span>
                     </div>
                   </div>
                 </div>
               </section>
             )}
 
-            {/* Section Title */}
-            {!search && (
-              <div className="mb-8">
-                <h3 className="text-2xl font-black text-slate-900 mb-4">Jelajahi Video</h3>
+            {/* MINIMALIST CATEGORY FILTER (YOUTUBE STYLE) */}
+            <div className="mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+              <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+                {CATEGORIES.map(cat => (
+                  <button 
+                    key={cat}
+                    onClick={() => setActiveCat(cat)}
+                    title={cat !== "Semua" ? `Konten dari ${cat}` : "Semua konten"}
+                    className={`px-3 py-1.5 rounded-full text-sm font-medium tracking-wide whitespace-nowrap transition-colors duration-150 flex-shrink-0
+                      ${activeCat === cat 
+                        ? 'bg-slate-900 text-white' 
+                        : 'bg-slate-100 text-slate-800 hover:bg-slate-200'}`}
+                  >
+                    {cat}
+                  </button>
+                ))}
               </div>
-            )}
-
-            {/* Category Filter Pills */}
-            <div className="sticky top-16 z-40 bg-white py-3 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-                <div className="max-w-7xl mx-auto">
-                  <div className="flex items-center gap-2 overflow-x-auto no-scrollbar">
-                    {CATEGORIES.map(cat => (
-                      <button 
-                        key={cat}
-                        onClick={() => setActiveCat(cat)}
-                        title={cat !== "Semua" ? `Konten dari ${cat}` : "Semua konten"}
-                        className={`px-3 py-1.5 rounded-lg text-sm font-medium tracking-wide whitespace-nowrap transition-colors duration-150 flex-shrink-0
-                          ${activeCat === cat 
-                            ? 'bg-slate-900 text-white' 
-                            : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}
-                      >
-                        {cat}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              </div>
+            </div>
 
             {/* Video Responsive Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8">
               {filteredVideos.length > 0 ? (
                 filteredVideos.map((v) => (
                   <VideoCard key={v.id} video={v} onClick={() => setSelectedVideo(v)} />
                 ))
               ) : (
                 <div className="col-span-full py-16 text-center">
-                  <Video size={52} className="mx-auto text-slate-300 mb-4" />
-                  <p className="text-slate-600 font-semibold text-lg">Tidak ada video ditemukan</p>
-                  <p className="text-slate-400 text-sm mt-2">Coba cari dengan kata kunci atau lokasi lain</p>
+                  <Video size={48} className="mx-auto text-slate-300 mb-3" />
+                  <p className="text-slate-800 font-medium text-base">Tidak ada video ditemukan</p>
+                  <p className="text-slate-400 text-sm mt-1">Coba cari dengan kata kunci atau lokasi lain</p>
                 </div>
               )}
             </div>
@@ -586,22 +487,17 @@ export default function ProVideomag() {
       </div>
 
       {/* --- MOBILE BOTTOM NAV --- */}
-      <nav className="md:hidden fixed bottom-0 w-full bg-white/95 backdrop-blur-xl border-t border-slate-200/60 px-4 py-3 flex justify-between items-center z-[100]">
-        <MobileNavItem icon={<Home size={24}/>} active />
-        <MobileNavItem icon={<Compass size={24}/>} />
-        <div className="relative -top-7">
-          <button className="bg-gradient-to-br from-rose-500 to-rose-600 text-white p-4 rounded-2xl border-4 border-white hover:from-rose-600 hover:to-rose-700 transition-all transform hover:scale-110 active:scale-95">
-            <Play fill="white" size={22} />
-          </button>
-        </div>
-        <MobileNavItem icon={<Video size={24}/>} />
-        <MobileNavItem icon={<User size={24}/>} />
+      <nav className="md:hidden fixed bottom-0 w-full bg-white border-t border-slate-100 px-4 py-2 flex justify-around items-center z-[100]">
+        <MobileNavItem icon={<Home size={22}/>} active />
+        <MobileNavItem icon={<Compass size={22}/>} />
+        <MobileNavItem icon={<Video size={22}/>} />
+        <MobileNavItem icon={<User size={22}/>} />
       </nav>
 
       {/* --- FULLSCREEN PLAYER --- */}
       {selectedVideo && (
         <div 
-          className="fixed inset-0 bg-black z-[200] flex flex-col lg:flex-row animate-in fade-in duration-300 overflow-hidden"
+          className="fixed inset-0 bg-black z-[200] flex flex-col lg:flex-row animate-in fade-in duration-200 overflow-hidden"
           onKeyDown={(e) => e.key === 'Escape' && setSelectedVideo(null)}
           tabIndex={-1}
         >
@@ -609,83 +505,68 @@ export default function ProVideomag() {
           <button 
             onClick={() => setSelectedVideo(null)}
             title="Tutup (ESC)"
-            className="absolute top-4 right-4 z-[210] w-12 h-12 bg-white/20 hover:bg-white/40 text-white rounded-full backdrop-blur-md transition-all transform hover:scale-110 duration-200 flex items-center justify-center shadow-lg border border-white/30"
+            className="absolute top-4 right-4 z-[210] w-10 h-10 bg-black/50 hover:bg-black/70 text-white rounded-full transition-all flex items-center justify-center"
           >
-            <X size={28} strokeWidth={2.5} />
+            <X size={24} />
           </button>
 
-          <div className="flex-1 flex items-center justify-center bg-slate-900">
-            <div className="w-full h-screen lg:h-auto aspect-video">
+          <div className="flex-1 flex items-center justify-center bg-black">
+            <div className="w-full aspect-video max-h-screen">
               <iframe 
                 width="100%" 
                 height="100%" 
                 src={`https://www.youtube.com/embed/${selectedVideo.id}?autoplay=1`} 
-                className="w-full h-full"
+                className="w-full h-full border-0"
                 allowFullScreen 
                 allow="autoplay; encrypted-media"
               />
             </div>
           </div>
 
-          <div className="w-full lg:w-[420px] bg-white h-auto lg:h-screen overflow-y-auto">
-            {/* Close Button Mobile */}
-            <div className="lg:hidden flex items-center justify-between p-4 border-b border-slate-200">
+          <div className="w-full lg:w-[400px] bg-white h-auto lg:h-screen overflow-y-auto flex flex-col">
+            <div className="lg:hidden flex items-center justify-between p-4 border-b border-slate-100">
               <h3 className="font-bold text-slate-900">Detail Video</h3>
-              <button 
-                onClick={() => setSelectedVideo(null)}
-                className="p-2 hover:bg-slate-100 rounded-lg transition-colors"
-              >
-                <X size={24} className="text-slate-600" />
+              <button onClick={() => setSelectedVideo(null)} className="p-1.5 hover:bg-slate-100 rounded-full">
+                <X size={20} className="text-slate-600" />
               </button>
             </div>
 
-            <div className="p-6 space-y-6">
-              {/* Title */}
-              <div>
-                <h3 className="text-xl font-black text-slate-900 leading-tight line-clamp-3">{selectedVideo.title}</h3>
-              </div>
+            <div className="p-5 space-y-5 flex-1">
+              <h3 className="text-lg font-bold text-slate-900 leading-snug">{selectedVideo.title}</h3>
               
-              {/* Channel Info */}
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-rose-500 to-rose-600 flex items-center justify-center text-white font-bold text-lg">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-white font-semibold text-sm">
                   {selectedVideo.channel.charAt(0)}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h4 className="font-bold text-slate-900 truncate">{selectedVideo.channel}</h4>
-                  <p className="text-xs text-slate-500 font-medium mt-0.5">1.2M Pelanggan</p>
+                  <h4 className="font-bold text-sm text-slate-900 truncate">{selectedVideo.channel}</h4>
+                  <p className="text-xs text-slate-400">1.2M Subscriber</p>
                 </div>
-                <button className="bg-rose-500 hover:bg-rose-600 text-white px-6 py-2.5 rounded-xl text-sm font-bold transition-all transform hover:scale-105 flex-shrink-0 border border-rose-600">
-                  Ikuti
+                <button className="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-full text-xs font-medium transition-colors">
+                  Subscribe
                 </button>
               </div>
 
-              {/* Action Buttons */}
-              <div className="grid grid-cols-2 gap-3">
-                <button className="flex items-center justify-center gap-2 py-3 px-4 bg-slate-100 hover:bg-slate-200 rounded-xl text-sm font-bold text-slate-700 transition-all transform hover:scale-105">
-                  <ThumbsUp size={18} /> Suka
+              <div className="flex gap-2">
+                <button className="flex-1 flex items-center justify-center gap-2 py-2 px-4 bg-slate-100 hover:bg-slate-200 rounded-full text-xs font-semibold text-slate-800">
+                  <ThumbsUp size={16} /> Suka
                 </button>
-                <button className="flex items-center justify-center gap-2 py-3 px-4 bg-slate-100 hover:bg-slate-200 rounded-xl text-sm font-bold text-slate-700 transition-all transform hover:scale-105">
-                  <Share2 size={18} /> Bagikan
+                <button className="flex-1 flex items-center justify-center gap-2 py-2 px-4 bg-slate-100 hover:bg-slate-200 rounded-full text-xs font-semibold text-slate-800">
+                  <Share2 size={16} /> Bagikan
                 </button>
               </div>
 
-              {/* Divider */}
-              <div className="h-px bg-slate-200"></div>
+              <div className="h-px bg-slate-100"></div>
 
-              {/* Description */}
-              <div>
-                <p className="text-xs font-bold text-slate-400 uppercase mb-3 tracking-wider">Deskripsi Video</p>
-                <p className="text-sm text-slate-600 leading-relaxed">
+              <div className="bg-slate-50 rounded-xl p-3">
+                <div className="flex items-center gap-2 text-xs font-bold text-slate-700 mb-1">
+                  <span>{selectedVideo.views} x ditonton</span>
+                  <span>•</span>
+                  <span>{selectedVideo.category}</span>
+                </div>
+                <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
                   {selectedVideo.description}
                 </p>
-              </div>
-
-              {/* Category Badge */}
-              <div>
-                <p className="text-xs font-bold text-slate-400 uppercase mb-3 tracking-wider">Kategori</p>
-                <div className="inline-block bg-rose-50 text-rose-600 text-sm font-bold px-4 py-2 rounded-lg">
-                  {selectedVideo.category}
-                </div>
               </div>
             </div>
           </div>
@@ -696,76 +577,68 @@ export default function ProVideomag() {
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
         @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
-        .animate-in { animation: fade-in 0.3s ease-out; }
+        .animate-in { animation: fade-in 0.2s ease-out; }
       `}</style>
     </div>
   );
 }
 
-// --- Components ---
+// --- Inner Components ---
 
 const SidebarItem = ({ icon, label, active = false, compact = false, isLive = false }: any) => (
   <button className={`
-    w-full flex items-center gap-4 px-4 py-3 rounded-xl transition-all duration-200 group
-    ${active ? 'bg-rose-50 text-rose-600' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'}
-    ${compact ? 'justify-center px-2' : ''}
+    w-full flex items-center gap-5 px-4 py-2.5 rounded-xl transition-colors duration-150 group
+    ${active ? 'bg-slate-100 text-slate-900 font-medium' : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900'}
+    ${compact ? 'md:justify-center md:px-0' : ''}
   `}>
-    <div className={`flex-shrink-0 transition-colors ${active ? 'text-rose-600' : 'text-slate-400 group-hover:text-rose-500'}`}>
+    <div className={`flex-shrink-0 transition-colors ${active ? 'text-slate-900' : 'text-slate-500 group-hover:text-slate-900'}`}>
       {icon}
     </div>
-    {!compact && (
-      <span className={`text-sm font-bold flex-1 text-left transition-colors ${active ? 'text-rose-600' : ''}`}>{label}</span>
-    )}
-    {isLive && !compact && <span className="w-2 h-2 bg-rose-500 rounded-full animate-pulse flex-shrink-0"></span>}
+    <span className={`text-sm text-left truncate transition-opacity duration-150 ${compact ? 'md:hidden' : 'block'}`}>{label}</span>
+    {isLive && !compact && <span className="w-1.5 h-1.5 bg-rose-600 rounded-full ml-auto"></span>}
   </button>
 );
 
 const MobileNavItem = ({ icon, active = false }: any) => (
-  <button className={`p-3 transition-all ${active ? 'text-rose-600' : 'text-slate-400 hover:text-slate-600'}`}>
+  <button className={`p-2 flex flex-col items-center gap-0.5 transition-colors ${active ? 'text-slate-900' : 'text-slate-500'}`}>
     {icon}
   </button>
 );
 
 const VideoCard = ({ video, onClick }: { video: Video; onClick: () => void }) => (
-  <article 
-    onClick={onClick}
-    className="group cursor-pointer flex flex-col h-full bg-white rounded-xl overflow-hidden border border-slate-200/60 hover:border-slate-300 transition-all duration-300"
-  >
-    <div className="relative aspect-video overflow-hidden bg-slate-100">
+  <article onClick={onClick} className="group cursor-pointer flex flex-col w-full">
+    {/* Thumbnail */}
+    <div className="relative aspect-video rounded-xl overflow-hidden bg-slate-100 w-full mb-3">
       <img 
         src={video.img} 
         alt={video.title} 
-        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+        className="w-full h-full object-cover" 
       />
-      <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-        <div className="w-14 h-14 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white scale-75 group-hover:scale-100 transition-all duration-300">
-          <Play fill="white" size={28} />
-        </div>
-      </div>
-      <div className="absolute bottom-2 right-2 bg-black/70 backdrop-blur-md text-white text-[10px] font-bold px-2.5 py-1 rounded-md">
+      <div className="absolute bottom-2 right-2 bg-black/80 text-white text-[11px] font-medium px-1.5 py-0.5 rounded-sm">
         {video.time}
       </div>
       {video.isLive && (
-        <div className="absolute top-2 left-2 bg-rose-500 text-white text-[9px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1">
-          <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span> LIVE
+        <div className="absolute top-2 left-2 bg-rose-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-sm tracking-wide">
+          LIVE
         </div>
       )}
     </div>
     
-    <div className="p-4 flex gap-3 flex-1">
-      <div className="flex-shrink-0">
-        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-rose-100 to-rose-50 flex items-center justify-center text-rose-600 font-bold group-hover:from-rose-200 group-hover:to-rose-100 transition-all text-sm">
+    {/* Meta Details */}
+    <div className="flex gap-3 px-1">
+      <div className="flex-shrink-0 mt-0.5">
+        <div className="w-9 h-9 rounded-full bg-slate-100 flex items-center justify-center text-slate-800 font-semibold text-xs">
           {video.channel.charAt(0)}
         </div>
       </div>
       <div className="flex flex-col min-w-0">
-        <h3 className="font-bold text-[14px] leading-snug mb-1.5 text-slate-900 line-clamp-2 group-hover:text-rose-600 transition-colors">
+        <h3 className="font-semibold text-sm leading-snug mb-1 text-slate-900 line-clamp-2 group-hover:text-slate-700">
           {video.title}
         </h3>
-        <p className="text-xs font-semibold text-slate-500 mb-2 truncate">{video.channel}</p>
-        <div className="flex items-center gap-2 text-[11px] font-semibold text-slate-400 uppercase tracking-tight">
-          <span className="flex items-center gap-1"><Eye size={12}/> {video.views}</span>
-          <span className="w-1 h-1 bg-slate-300 rounded-full"></span>
+        <p className="text-xs text-slate-500 hover:text-slate-900 truncate mb-0.5">{video.channel}</p>
+        <div className="flex items-center text-xs text-slate-400">
+          <span>{video.views} x ditonton</span>
+          <span className="mx-1">•</span>
           <span>Baru saja</span>
         </div>
       </div>
